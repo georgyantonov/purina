@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0 auto;
+    width: 1206px;
+    background: #E5E5E5;
+    
+}
+.ellipse{
+    position: absolute;
+    width: 1585px;
+    height: 1585px;
+    left: -155px;
+    top: -697px;
+    z-index: -1;
+    border-radius: 792.5px;
+    background: radial-gradient(62.22% 62.22% at 76% 94.82%, #00828F 43.92%, #004D54 93.92%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}
+header{
+    padding: 30px 0 0 0;
+    width: 1206px;
+    height: 148px;
+
+}
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.wrapper h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 46px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+
+footer{
+    position: absolute;
+    top: 943px;
+    left: 0;
+    width: 100%;
+    height: 76px;
+    background-color: black;
+}
