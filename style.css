@@ -1,7 +1,7 @@
 body{
     padding: 0;
-    margin: 0 300px;
-    width: 1206px;
+    margin: 0 auto 0 300px;
+    min-width: 1206px;
     background: #E5E5E5;
     height: 1019px;
     box-sizing: border-box;
@@ -19,7 +19,7 @@ body{
 }
 header{
     padding: 30px 0 0 0;
-    width: 1206px;
+    width: auto;
     height: 148px;
 
 }
@@ -146,11 +146,10 @@ footer{
     text-decoration: none;
     letter-spacing: 0.08em;
 }
-
 @media (max-width: 1367.99px){
     body{
         padding: 0;
-        width: auto;
+        min-width: auto;
         height: 800px;
         background: #E5E5E5;
         box-sizing: border-box;
@@ -164,7 +163,6 @@ footer{
     }
     header{
         padding: 0;
-        width: 1006px;
         height: 118px;
         padding: 20px 0 0 0;
     }
