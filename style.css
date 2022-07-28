@@ -1,5 +1,8 @@
-html{
+html,main{
     overflow-x: hidden;
+}
+a:link{
+    color:white
 }
 .container{
     overflow: hidden;
@@ -12,7 +15,6 @@ html{
 body{
     padding: 0;
     margin: 0 auto 0 300px;
-    min-width: 1206px;
     background: #E5E5E5;
     box-sizing: border-box;
     overflow: hidden;
@@ -47,6 +49,8 @@ header{
     line-height: 120%;
     color: #FFFFFF;
     letter-spacing: 00.065em;
+    width: 650px;
+    height: 110px;
 }
 .btn{
     display: flex;
@@ -164,7 +168,6 @@ footer{
 @media (max-width: 1367.99px){
     body{
         padding: 0;
-        min-width: auto;
         background: #E5E5E5;
         box-sizing: border-box;
         margin: 0 200px;
@@ -249,7 +252,6 @@ footer{
 }
 @media (max-width: 767.99px){
     body{
-        min-width: auto;
         margin: 0 100px;
     }
     .ellipse{
@@ -273,8 +275,7 @@ footer{
         background-size: 667.8px 707.63px;
     }
     footer{
-        width: 768px;
-        top: 102%;
+        top: 100%;
         height: 95px;
     }
     .footer_wrapper{
@@ -306,9 +307,8 @@ footer{
 }
 @media (max-width: 424.99px){
     body{
-        width: 424px;
         margin: 0;
-        padding: 0 20px 0 0p;
+        padding: 0 20px 0 0;
         overflow: hidden;
     }
     header{
@@ -341,7 +341,6 @@ footer{
         top:50%;
         left: -12%;
         background-size: 395px 420px;
-        background-position: 0 0 0 0 ;
     }
     .btn{
         width: 182px;
@@ -363,7 +362,6 @@ footer{
     }
     footer{
         box-sizing: border-box;
-        width: 435px;
         height: 173px;
         top:92%;
         right:-5%;
@@ -392,5 +390,34 @@ footer{
     }
     .copyright_content, .note{
         font-size: 10px;
+    }
+}
+@media (max-width: 319.99px){
+    .wrapper h1{
+        width: 290px;
+        height: 81px;
+        font-size: 23px;
+    }
+    .cat{
+        overflow: hidden;
+    }
+    .cat img{
+        top:71%;
+        width: 458px;
+        height: 370px;
+    }
+    .btn{
+        top:111%;
+    }
+    .copyright {
+        top: 53px;
+        left: 20px;
+    }
+    .note {
+        top: 99px;
+    }
+    footer{
+        top:124%;
+        height: 130px;
     }
 }
