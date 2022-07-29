@@ -11,8 +11,10 @@ a:link{
 .background{
     position: absolute;
     width: 100%;
+    height: inherit;
 }
 body{
+    height: 100vh;
     padding: 0;
     margin: 0 auto 0 300px;
     background: #E5E5E5;
@@ -163,7 +165,7 @@ footer{
 .tnc a{
     text-decoration: none;
 }
-@media (max-width: 1367.99px){
+@media (max-width: 1368px){
     body{
         padding: 0;
         background: #E5E5E5;
@@ -245,15 +247,24 @@ footer{
         margin-left: 108px;
     }
 }
-@media (max-width: 767.99px){
+@media (max-width: 768px){
     body{
         margin: 0 70px;
+        height: 90vh;
+    }
+    .container{
+        overflow-y: hidden;
+    }
+    .background{
+        width:inherit;
+        right: 0px;
+        height: inherit;
     }
     .ellipse{
         width: 1498px;
-        height: 1498px;
-        left: -796px;
-        top: -511px;
+        height: 1398px;
+        left: -66px;
+        top: -560px;
     }
     main{
         margin-top: 14px;
@@ -284,8 +295,8 @@ footer{
     }
     .cat img{
         width: 766px;
-        height: 595px;
-        top:44%;
+        height: 565px;
+        top:38%;
         left: -2%;
         background-size: 667.8px 707.63px;
     }
@@ -294,14 +305,17 @@ footer{
     }
     .footer_wrapper{
         align-items: flex-start;
-        margin: 0 0 0 70px;
+        margin: 0;
+        width: auto;
     }
     .logo{
         position: absolute;
         top:19px;
+        left: 70px;
     }
     .copyright{
-        width: 272px;
+        height: 10px;
+        width: 200px;
         position: absolute;
         top: 26px;
         left: 70px;
@@ -310,6 +324,7 @@ footer{
     .copyright_content{
         letter-spacing: 0.012em;
         margin-top: 25px;
+        height: 40px;
     }
 
     .note{
@@ -328,7 +343,7 @@ footer{
         width: 295px;
     }
 }
-@media (max-width: 424.99px){
+@media (max-width: 414px){
     body{
         margin: 0;
         padding: 0 20px 0 0;
@@ -355,20 +370,20 @@ footer{
     .ellipse{
         width: 984px;
         height: 984px;
-        left: -549px;
+        left: 0px;
         top: -397px;
     }
     .cat img{
         width: 112%;
         height: 382px;
-        top:50%;
+        top:40%;
         left: -12%;
         background-size: 395px 420px;
     }
     .btn{
         width: 182px;
         height: 62px;
-        top: 80%;
+        top: 75%;
         
         z-index: 1;
     }
@@ -377,7 +392,7 @@ footer{
         margin-left: 10px;
     }
     .btn.call{
-        left: 233px;
+        left: 213px;
         display: flex;
     }
     .btn.write{
@@ -385,7 +400,7 @@ footer{
     }
     footer{
         box-sizing: border-box;
-        height: 173px;
+        height: 100px;
     }
     .footer_wrapper{
         box-sizing: border-box;
@@ -394,12 +409,16 @@ footer{
         margin:0;
         padding-left: 20px;
     }
+    .logo{
+        left:20px ;
+    }
     .copyright{
-        top:74px;
+    
+        top:24px;
         left: 20px;
     }
     .note{
-        top: 124px;
+        top: 70px;
         left: 20px;
     }
     .tnc{
@@ -413,7 +432,7 @@ footer{
         font-size: 10px;
     }
 }
-@media (max-width: 319.99px){
+@media (max-width: 320px){
     .wrapper h1{
         width: 290px;
         height: 81px;
