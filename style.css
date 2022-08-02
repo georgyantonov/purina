@@ -14,7 +14,7 @@ a:link{
     height: inherit;
 }
 body{
-    height: 100vh;
+    /* height: 100vh; */
     padding: 0;
     margin: 0 auto 0 300px;
     background: #E5E5E5;
@@ -50,7 +50,7 @@ header{
     line-height: 120%;
     color: #FFFFFF;
     letter-spacing: 00.065em;
-    width: 727px;
+    width: 670px;
     height: 110px;
 }
 .btn{
@@ -91,12 +91,12 @@ header{
 .wrapper .bot{
     position: absolute;
     top: 13.3%;
-    left: 68.2%;
+    left: 67.2%;
 
 }
 .bot img{
-    height: 178px;
-    width: 178px;
+    height: 243px;
+    width: 243px;
 }
 .cat {
     display: flex;
@@ -112,7 +112,7 @@ header{
 }
 footer{
     position: absolute;
-    bottom: 0;
+    bottom: -50px;
     left: 0;
     width: 100%;
     height: 76px;
@@ -385,15 +385,14 @@ footer{
     .cat img{
         width: 112%;
         height: 382px;
-        top:40%;
+        top:42%;
         left: -12%;
         background-size: 395px 420px;
     }
     .btn{
         width: 182px;
         height: 62px;
-        top: 75%;
-        
+        top: 80%;
         z-index: 1;
     }
     .btn p{
@@ -410,6 +409,7 @@ footer{
     footer{
         box-sizing: border-box;
         height: 100px;
+        bottom: -50px;
     }
     .footer_wrapper{
         box-sizing: border-box;
@@ -440,22 +440,44 @@ footer{
         font-size: 10px;
     }
 }
-@media (max-width: 320px){
+@media (max-width: 375px){
     .wrapper h1{
         width: 290px;
         height: 81px;
         font-size: 23px;
     }
+    .bot{
+        height: 81px;
+        width: 81px;
+    }
+    .wrapper .bot img {
+        width: inherit;
+        height: inherit;
+    }
     .cat{
         overflow: hidden;
     }
     .cat img{
-        top:71%;
-        width: 458px;
+        top:51%;
+        left:-20%;
         height: 370px;
+        width: 450px;
+        background-size: 370px 320px;
+        background-position: 80px 40px;
     }
     .btn{
-        top:111%;
+        top:100%;
+        width: 140px;
+        height: 50px;
+    }
+    .btn img{
+        left:0;
+    }
+    .btn p{
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        margin-left: 5px;
+        right:0;
     }
     .copyright {
         top: 53px;
@@ -466,5 +488,6 @@ footer{
     }
     footer{
         height: 130px;
+        bottom: -220px;
     }
 }
