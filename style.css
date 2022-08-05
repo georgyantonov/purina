@@ -28,7 +28,7 @@ body{
     top: -697px;
     z-index: -1;
     border-radius: 792.5px;
-    background: radial-gradient(62.22% 62.22% at 76% 94.82%, #00828F 43.92%, #004D54 93.92%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    background: radial-gradient(62.22% 62.22% at 76% 94.82%, #00828F 43.92%, #004D54 93.92%);
 }
 header{
     padding: 30px 0 0 0;
